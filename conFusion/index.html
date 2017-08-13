@@ -130,9 +130,13 @@
               </div>
               <div class="form-group row">
                 <label for="smoke" class="col-12 col-md-2 col-form-label">Section</label>
-                <div class="col col-md btn-group" id="smoke">
-                  <button type="radio" class="btn btn-success" name="smoking" value="False" checked="checked" >Non-Smoking</button>
-                  <button type="radio" class="btn btn-danger" name="smoking" value="True">Smoking</button>
+                <div class="col col-md btn-group" id="smoke" data-toggle="buttons">
+                  <label class="btn btn-success active">
+                    <input type="radio" name="smoking" id="option1" autocomplete="off" checked>Non-Smoking
+                  </label>
+                  <label class="btn btn-danger">
+                    <input type="radio" name="smoking" id="option2" autocomplete="off">Smoking
+                  </label>
                 </div>
               </div>
               <div class="form-group row">
